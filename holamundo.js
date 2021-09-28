@@ -22,7 +22,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain');
 
   res.end('Hola mundo, empiezo con nodejs!\n');
-  //eventEmitter.emit('mensaje');
+  //eventEmitter.emit('mensajess');
 });
 
 server.listen(port, hostname, () => {
